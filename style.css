@@ -23,5 +23,16 @@ body{
     padding: var(--espacamento);
     background:var(--cor-primaria);
     color: aliceblue;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--espacamento);
+    padding: var(--espacamento);
+}
+
+.card{
+    background: rgb(36, 88, 201);
 
 }
